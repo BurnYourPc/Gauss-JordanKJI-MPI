@@ -1,6 +1,6 @@
-# Parallel Gauss-Jordan KJI in MPI c
+# Parallel Gauss-Jordan KJI in MPI C
 
-An implementation of  parallel Gauss-Jordan method in KJI form written in MPI c.
+An implementation of  parallel Gauss-Jordan method in KJI form written in MPI C.
 
 You could give your augmented matrix in a txt as an argument. If you don't then a random augmented matrix is generated. The "matrix_example.txt" in src folder is a txt file example.
 
