@@ -6,7 +6,7 @@ You could give your augmented matrix in a txt as an argument. If you don't then 
 
 We implement two variants of Gauss-Jordan method. The first seperates columns by zones and the second by card-shuffling.
 
-In figures folder we give executions of both variation for p=2,4,8,16. As you can notice the executional times, the speedup and the efficiency for both variations follow the theoritical results.
+In figures folder we give executions of both variations for p=2,4,8,16. As you can notice the executional times, the speedup and the efficiency for both variations follow the theoritical results.
 
 We use MPI 3.1 and gcc 6.
 
@@ -16,4 +16,4 @@ In src folder run:
 
 ~$ mpirun -np number_of_processes ./executable aug_matrix.txt
 
-These implementations was developed for the course of Parallel Algorithms in University.
+These implementations were developed for the course of Parallel Algorithms in University.
