@@ -13,6 +13,7 @@ We use MPI 3.1 and gcc 6.
 In src folder run:
 
 ~$ mpicc suffle.c -o executable   (or ~$ mpicc zones_col.c -o executable)
+
 ~$ mpirun -np number_of_processes ./executable aug_matrix.txt
 
 These implementations was developed for the course of Parallel Algorithms in University.
