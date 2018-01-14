@@ -1,0 +1,7 @@
+.dep.inc
+build/
+dist/
+nbproject/
+gauss-jordan-Makefile.mk
+*.tar*
+results/
